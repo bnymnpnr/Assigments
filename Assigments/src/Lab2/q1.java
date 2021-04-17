@@ -25,11 +25,11 @@ public class q1 {
 		int smallest;
 		int largest;
 		if (firstNum < nextNumber) {
-            smallest =firstNum;
-            largest = nextNumber;
-		}else {
-			smallest= nextNumber;
-			largest= firstNum;
+			smallest = firstNum;
+			largest = nextNumber;
+		} else {
+			smallest = nextNumber;
+			largest = firstNum;
 		}
 
 		while (answer == 1) {
