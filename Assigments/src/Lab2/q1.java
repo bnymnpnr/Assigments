@@ -22,9 +22,15 @@ public class q1 {
 
 		System.out.print("Do you want to enter another number: 0-No, 1-Yes");
 		int answer = scan.nextInt();
-
-		int smallest = firstNum;
-		int largest = nextNumber;
+		int smallest;
+		int largest;
+		if (firstNum < nextNumber) {
+            smallest =firstNum;
+            largest = nextNumber;
+		}else {
+			smallest= nextNumber;
+			largest= firstNum;
+		}
 
 		while (answer == 1) {
 			System.out.print("Enter your next number:");

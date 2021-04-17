@@ -23,7 +23,7 @@ Write a program with a variable that holds the number of milligrams of caffeine 
 		
 		System.out.println(" Number of milligrams in drink: "+ caffeineInMg);
 		System.out.println(" It would take about "+result+" drinks for a lethal overdose");
-		
+		System.out.println();
 	}
 
 }
