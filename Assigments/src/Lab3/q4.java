@@ -11,14 +11,16 @@ public class q4 {
 		 * firstTwo("ab") -"ab"
 		 */
 
-		firstTwo("Hello");
+		firstTwo("");
 
 	}
 
 	private static void firstTwo(String str) {
 		if (str.length() >= 2) {
 			System.out.println(str.substring(0, 2));
-		} else {
+		} else if(str.isEmpty()) {
+			System.out.println("Empty string!");
+		}else {
 			System.out.println(str);
 		}
 
