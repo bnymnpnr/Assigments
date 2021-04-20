@@ -31,12 +31,9 @@ public class tipCalculator {
 		System.out.println("Total tip: " + getTotalTip(split, quality, checkAmount, totalTip));
 
 		if (split.equalsIgnoreCase("yes")) {
-			System.out.println(
-					"Total per person: " + getTotalPay(split, quality, checkAmount, totalTip) / numberOfPeople);
+			System.out.println("Total per person: " + getTotalPay(split, quality, checkAmount, totalTip) / numberOfPeople);
 
-			System.out
-					.println("Tip per person: " + getTotalTip(split, quality, checkAmount, totalTip) / numberOfPeople);
-
+			System.out.println("Tip per person: " + getTotalTip(split, quality, checkAmount, totalTip) / numberOfPeople);
 		}
 
 	}
