@@ -18,16 +18,16 @@ public class q2 {
 		 */
 
 		Scanner scan = new Scanner(System.in);
-System.out.println("Enter a number to calculate cube:");
-int number = scan.nextInt();
-cube(number);
+		System.out.println("Enter a number to calculate cube:");
+		int number = scan.nextInt();
+		cube(number);
 
 	}
 
 	private static void cube(int number) {
 		int result = 1;
-		for (int i = 0; i <3; i++) {
-			result*=number;
+		for (int i = 0; i < 3; i++) {
+			result *= number;
 		}
 		System.out.println(result);
 	}
