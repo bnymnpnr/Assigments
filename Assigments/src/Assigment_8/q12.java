@@ -22,6 +22,8 @@ public class q12 {
 		 * 
 		 * hamletQuote(false,false) returns false
 		 */
+		
+		
 		boolean bool1 = true;
 		boolean bool2 = false;
 
