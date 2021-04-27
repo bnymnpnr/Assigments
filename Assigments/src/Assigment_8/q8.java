@@ -17,6 +17,8 @@ public class q8 {
 		 * 
 		 * Input : 9 Output : 21
 		 */
+		
+		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a number: ");
 		int count = scan.nextInt();
