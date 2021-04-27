@@ -11,6 +11,7 @@ public class q3 {
 		 * should print "Hello" and world() method should print "World!". output: Hello
 		 * World!
 		 */
+		
 
 		System.out.println(hello() + world());
 
