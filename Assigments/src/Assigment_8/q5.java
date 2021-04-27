@@ -19,6 +19,8 @@ public class q5 {
 		 * 
 		 * the parameter should be entered by user (create a scanner object)
 		 */
+		
+		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a number");
 		int number = scan.nextInt();
