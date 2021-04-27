@@ -14,6 +14,7 @@ public class q4 {
 		 * to print "*" or " ")
 		 */
 		
+		
 		printHollowRect(5);
 
 	}
