@@ -30,6 +30,8 @@ public class q13 {
 		 * and above 150 it is the same as above 50 (units *0.90) but with a 100 fine
 		 * added to the price.
 		 */
+		
+		
 		double water = 151;
 
 		System.out.println(waterTax(water));
