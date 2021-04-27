@@ -17,6 +17,7 @@ public class q1 {
 		 * 
 		 * enter first number: 1 enter second number: 2 result: 3
 		 */
+		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter first number:");
 		int first = scan.nextInt();
