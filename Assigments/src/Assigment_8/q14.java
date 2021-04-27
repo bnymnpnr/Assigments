@@ -13,6 +13,8 @@ public class q14 {
 		 * 
 		 * https://en.wikipedia.org/wiki/Truth_table
 		 */
+		
+		
 		boolean b1 = true;
 		boolean b2 = false;
 		boolean b3 = true;
