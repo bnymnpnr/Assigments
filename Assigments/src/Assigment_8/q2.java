@@ -16,6 +16,7 @@ public class q2 {
 		 * 
 		 * input: 5 output: 125
 		 */
+		
 
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a number to calculate cube:");
