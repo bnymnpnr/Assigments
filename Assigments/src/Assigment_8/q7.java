@@ -14,48 +14,34 @@ public class q7 {
 		 * 
 		 * Example: input: 1234 output: false
 		 */
-		
-		
+
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a number: ");
 		int number = scan.nextInt();
-		isPalindrome(number);
 		
+		System.out.println(isPalindrome(number));
+		
+
 	}
 
-	private static void isPalindrome(int num) {
-		/*
-		 1234;
-		 
-		 1234%10 = 4*10
-		 1234/10= 123
-		 
-		 123%10=3*10
-		 123/10=12
-		 
-		 12%10 =2*10
-		 12/10=1
-		 
-		 1
-		 
-		 4321
-		 
-		 */
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	private static boolean isPalindrome(int num) {
+		boolean flag = false;
+
+		int reverse = 0;
+		int realNum = num;
+
+		while (num > 0) {
+			reverse = (reverse * 10) + num % 10;
+			num /= 10;
+	
+		}
+
+		if (reverse == realNum) {
+			flag = true;
+		}
+
+		return flag;
+
 	}
 
 }
