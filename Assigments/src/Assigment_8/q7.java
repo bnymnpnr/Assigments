@@ -14,6 +14,8 @@ public class q7 {
 		 * 
 		 * Example: input: 1234 output: false
 		 */
+		
+		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a number: ");
 		int number = scan.nextInt();
