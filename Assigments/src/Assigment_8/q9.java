@@ -17,6 +17,8 @@ public class q9 {
 		 * 
 		 * max(11,5) returns 5
 		 */
+		
+		
 		int x = 11;
 		int max = 5;
 		System.out.println(max(x, max));
