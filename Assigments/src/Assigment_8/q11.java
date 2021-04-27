@@ -16,6 +16,8 @@ public class q11 {
 		 * 
 		 * c_profis(100,100) returns : "no loss"
 		 */
+		
+		
 		int buyPrice = 50;
 		int sellPrice = 50;
 
