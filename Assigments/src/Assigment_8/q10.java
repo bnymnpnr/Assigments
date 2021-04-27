@@ -16,6 +16,7 @@ public class q10 {
 		 * isEven(8) --> true
 		 */
 		
+		
 		int number=8;
 		isEven(number);
 		
