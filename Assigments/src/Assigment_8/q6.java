@@ -16,6 +16,8 @@ public class q6 {
 		 * 
 		 * (put a space between numbers)
 		 */
+		
+		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a number: ");
 		next3(scan.nextInt());
