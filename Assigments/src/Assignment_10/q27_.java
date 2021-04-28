@@ -28,7 +28,7 @@ public class q27_ {
 		 */
 
 		String word = "Certified Wooden Spoon";
-		String cover = "Cer";
+		String cover = "o";
 
 		System.out.println(coverString(word, cover));
 
