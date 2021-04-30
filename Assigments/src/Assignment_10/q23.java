@@ -21,20 +21,21 @@ public class q23 {
 		 * input: breadbutterbread output: butter
 		 */
 		
-		// I WILL TURN BACK THIS QUESTION !!!
 
-		String word = "breadjambread";
-		int lastIndexOfFirstBread = word.indexOf("bread") + "bread".length();
-		int firstIndexOfSecondBread = word.lastIndexOf("bread");
-		
-		String wordBetweenFirstAndSecondBread = word.substring(lastIndexOfFirstBread, firstIndexOfSecondBread);
-		
-		if(wordBetweenFirstAndSecondBread.equals("bread")) {
+		String word = "breadbutterbread";
+		int firstBreadIndex = word.indexOf("bread");
+		int secondBreadIndex = word.indexOf("bread", firstBreadIndex + 1);
+
+		String dummy = word;
+
+		dummy = dummy.replaceFirst("bread", "");
+
+		if (dummy.contains("bread")) {
+			dummy = word.substring(firstBreadIndex + 5, secondBreadIndex);
+			System.out.println(dummy);
+		} else {
 			System.out.println("nothing!");
-			return;
 		}
-		
-		System.out.println(wordBetweenFirstAndSecondBread);
 
 	}
 
