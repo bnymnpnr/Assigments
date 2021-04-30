@@ -27,7 +27,7 @@ public class monthRainfall {
 
 		double sum = 0;
 		double inches = 0;
-		double max = -1;
+		double max = Double.MIN_VALUE;
 		double min = Double.MAX_VALUE;
 
 		for (int i = 0; i < months.length; i++) {
@@ -41,7 +41,6 @@ public class monthRainfall {
 				continue;
 			}
 
-			max = -1;
 			if (inches > max) {
 				max = inches;
 			}
@@ -54,10 +53,10 @@ public class monthRainfall {
 		}
 
 		double avarage = sum / monthLength;
-		System.out.println(sum);
-		System.out.println(avarage);
-		System.out.println(max);
-		System.out.println(min);
+		System.out.println("Sum of all rain: "+sum);
+		System.out.println("Avarage rainfall: "+avarage);
+		System.out.println("Max rain: "+max);
+		System.out.println("Min rain: "+min);
 
 	}
 
