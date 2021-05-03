@@ -15,6 +15,7 @@ public class muhtar_array_employee {
 		 * 
 		 * 2. display the name of the employee who has the lowest salary
 		 */
+		
 
 		String[] employees = { "John", "Conor McGregor", "Rose", "Breanna", "Shay", "Khabib" };
 
