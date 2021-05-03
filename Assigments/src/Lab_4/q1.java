@@ -10,6 +10,7 @@ public class q1 {
 		 * {13,6,1,2,3}; = > false
 		 */
 		
+		
 
 		int[] x = { 1, 2, 6 };
 
