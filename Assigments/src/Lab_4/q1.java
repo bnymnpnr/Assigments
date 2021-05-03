@@ -9,10 +9,14 @@ public class q1 {
 		 * or more. int[] x = {1,2,6}; = > true int[] y = {6,1,2,3}; = > true int[] z =
 		 * {13,6,1,2,3}; = > false
 		 */
-	
 		
 
 		int[] x = { 1, 2, 6 };
+
+		System.out.println(array6(x));
+	}
+
+	private static boolean array6(int[] x) {
 
 		boolean flag = false;
 
@@ -20,7 +24,7 @@ public class q1 {
 			flag = true;
 		}
 
-		System.out.println(flag);
+		return flag;
 
 	}
 
