@@ -6,6 +6,7 @@ public class q26 {
 	 * contains 3 even or 3 odd values all next to each other. int x[] = {2,1,3,5};
 	 * //true int y[] = {2,1,2,5}; //false int z[] = {2,4,2,5}; //true
 	 */
+	
 
 	public static void main(String[] args) {
 		int x[] = { 2, 1, 3, 5 };
