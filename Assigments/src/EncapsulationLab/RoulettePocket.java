@@ -1,15 +1,4 @@
 package EncapsulationLab;
-/*
- * Pocket 0 is green.
-For pockets 1 through 10, the odd-numbered pockets are red and the evennumbered
-pockets are black.
-For pockets 11 through 18, the odd-numbered pockets are black and the
-even-numbered pockets are red.
-For pockets 19 through 28, the odd-numbered pockets are red and the evennumbered
-pockets are black.
-For pockets 29 through 36, the odd-numbered pockets are black and the
-even-numbered pockets are red.
- */
 
 public class RoulettePocket {
 
