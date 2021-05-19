@@ -20,25 +20,13 @@ public class RoulettePocket {
 
 		if (pocketNumber == 0) {
 			color = "green";
-		} else if (pocketNumber >= 1 && pocketNumber <= 10) {
+		} else if (pocketNumber >= 1 && pocketNumber <= 10 || pocketNumber >= 19 && pocketNumber <= 28) {
 			if (isOdd) {
 				color = "red";
 			} else {
 				color = "black";
 			}
-		} else if (pocketNumber >= 11 && pocketNumber <= 18) {
-			if (isOdd) {
-				color = "black";
-			} else {
-				color = "red";
-			}
-		} else if (pocketNumber >= 19 && pocketNumber <= 28) {
-			if (isOdd) {
-				color = "red";
-			} else {
-				color = "black";
-			}
-		} else if (pocketNumber >= 29 && pocketNumber <= 36) {
+		} else if (pocketNumber >= 11 && pocketNumber <= 18 || pocketNumber >= 29 && pocketNumber <= 36) {
 			if (isOdd) {
 				color = "black";
 			} else {
