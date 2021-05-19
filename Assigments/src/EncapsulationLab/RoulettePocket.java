@@ -11,11 +11,10 @@ public class RoulettePocket {
 	public String getPocketColor(int pocketNumber) {
 
 		if (pocketNumber < 0 || pocketNumber > 36) {
-
 			return "Invalid Number";
 		}
-		String color = "";
 
+		String color = "";
 		boolean isOdd = pocketNumber % 2 == 1;
 
 		if (pocketNumber == 0) {
